@@ -1,0 +1,32 @@
+2020-03-01 20:32:00.8161||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.ArgumentException: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.ParameterExistsInAnyRoute(ActionModel actionModel, String parameterName)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.InferBindingSourceForParameter(ParameterModel parameter)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.InferParameterBindingSources(ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-03-01 20:35:03.1776||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.ArgumentException: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Routing.Template.TemplateParser.Parse(String routeTemplate)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.ParameterExistsInAnyRoute(ActionModel actionModel, String parameterName)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.InferBindingSourceForParameter(ParameterModel parameter)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.InferParameterBindingSources(ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 

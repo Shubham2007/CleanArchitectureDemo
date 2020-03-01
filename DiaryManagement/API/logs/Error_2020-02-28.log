@@ -1,0 +1,123 @@
+2020-02-28 14:09:28.0359||ERROR|API.Controllers.DiaryController|User Id is not valid 
+2020-02-28 14:10:07.4142||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.GetUserDiaryNotes (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:29:53.9252||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:30:09.4201||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:31:07.2931||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:31:31.7464||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:31:31.8380||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:43:40.0794||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: The constraint entry 'key' - 'key' on the route 'api/{key:key}/Diary/CreateDiaryNote' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.
+   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 14:44:14.0397||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: The following errors occurred with attribute routing information:
+
+Error 1:
+For action: 'API.Controllers.DiaryController.CreateDiaryNote (API)'
+Error: While processing template 'api/[key]/[controller]/CreateDiaryNote', a replacement value for the token 'key' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 2:
+For action: 'API.Controllers.DiaryController.GetUserDiaryNotes (API)'
+Error: While processing template 'api/[key]/[controller]/GetUserDiaryNotes', a replacement value for the token 'key' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorBuilder.Build(ApplicationModel application)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-02-28 15:17:03.5978||ERROR|API.Program|Error in init System.FormatException: Could not parse the JSON file. Error on line number '13': '
+"Serverkey":  "esignature"'. ---> Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'ConnectionStrings', line 13, position 2.
+   at Newtonsoft.Json.JsonTextReader.ParsePostValue(Boolean ignoreComments)
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.BuildCommonServices(AggregateException& hostingStartupErrors)
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at API.Program.Main(String[] args) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Program.cs:line 18

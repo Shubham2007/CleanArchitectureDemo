@@ -1,0 +1,8 @@
+2020-02-28 14:09:27.9337||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 14:11:12.5133||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/ds/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 14:28:57.3852||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 14:29:34.6231||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 14:36:10.6788||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 15:13:47.1979||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/esignature/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 15:17:34.4023||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/esignature/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes
+2020-02-28 21:52:29.9211||INFO|API.Controllers.DiaryController|Executing MoveNext Method Of Class: DiaryController |url: http://localhost/api/esignature/Diary/GetUserDiaryNotes|action: GetUserDiaryNotes

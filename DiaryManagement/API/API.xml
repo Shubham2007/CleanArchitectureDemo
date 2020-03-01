@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="T:API.Extensions.IApplicationBuilderExtensions">
+            <summary>
+            IApplicationBuilder Extensions
+            </summary>
+        </member>
+        <member name="M:API.Extensions.IApplicationBuilderExtensions.ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Extension method to use custom exception middleware
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:API.Extensions.IApplicationBuilderExtensions.ConfigureSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Extension method to configure swagger
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:API.Extensions.IServiceCollectionExtensions">
+            <summary>
+            IServiceCollection Extensions
+            </summary>
+        </member>
+        <member name="M:API.Extensions.IServiceCollectionExtensions.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register Services
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:API.Extensions.IServiceCollectionExtensions.RegisterAutomapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Extension method to register automapper
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:API.Extensions.IServiceCollectionExtensions.RegisterEntityFramework(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Extension method to register entity framework
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:API.Extensions.IServiceCollectionExtensions.DependencyResolver(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Extension method to resolve dependencies
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:API.Extensions.IServiceCollectionExtensions.RegisterSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Extension method to register swagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:API.Middlewares.ExceptionMiddleware">
+            <summary>
+            Custom Exception middleware to catch unhandled exception during runtime
+            </summary>
+        </member>
+        <member name="M:API.Middlewares.ExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handle runtime error
+            </summary>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
