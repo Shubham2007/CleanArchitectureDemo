@@ -512,3 +512,73 @@
 2020-03-01 20:37:24.3300 Info Adding target FileTarget(Name=ErrorFile)
 2020-03-01 20:37:24.3300 Info Adding target FileTarget(Name=InfoFile)
 2020-03-01 20:37:24.4041 Info Found 47 configuration items
+2020-03-02 12:24:15.0300 Info Message Template Auto Format enabled
+2020-03-02 12:24:15.0584 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 12:24:15.1725 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 12:24:15.1725 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 12:24:15.2182 Info Found 47 configuration items
+2020-03-02 12:29:09.7271 Info Message Template Auto Format enabled
+2020-03-02 12:29:09.7417 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 12:29:09.8328 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 12:29:09.8428 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 12:29:09.8929 Info Found 47 configuration items
+2020-03-02 12:29:39.2787 Info Message Template Auto Format enabled
+2020-03-02 12:29:39.2952 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 12:29:39.3754 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 12:29:39.3856 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 12:29:39.4369 Info Found 47 configuration items
+2020-03-02 14:44:36.2896 Info Message Template Auto Format enabled
+2020-03-02 14:44:36.3030 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 14:44:36.3758 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 14:44:36.3758 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 14:44:36.4232 Info Found 47 configuration items
+2020-03-02 14:45:00.6402 Info Message Template Auto Format enabled
+2020-03-02 14:45:00.6650 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 14:45:00.7711 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 14:45:00.7841 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 14:45:00.8348 Info Found 47 configuration items
+2020-03-02 15:11:08.1660 Info Message Template Auto Format enabled
+2020-03-02 15:11:08.1818 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:11:08.2961 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:11:08.3079 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:11:08.3748 Info Found 47 configuration items
+2020-03-02 15:20:56.9818 Info Message Template Auto Format enabled
+2020-03-02 15:20:56.9978 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:20:57.0969 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:20:57.1096 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:20:57.1543 Info Found 47 configuration items
+2020-03-02 15:21:25.4814 Info Message Template Auto Format enabled
+2020-03-02 15:21:25.4994 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:21:25.5876 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:21:25.5876 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:21:25.6367 Info Found 47 configuration items
+2020-03-02 15:22:02.8323 Info Message Template Auto Format enabled
+2020-03-02 15:22:02.8501 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:22:02.9517 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:22:02.9628 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:22:03.0114 Info Found 47 configuration items
+2020-03-02 15:23:34.5823 Info Message Template Auto Format enabled
+2020-03-02 15:23:34.5972 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:23:34.6944 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:23:34.6944 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:23:34.7601 Info Found 47 configuration items
+2020-03-02 15:24:18.9842 Info Message Template Auto Format enabled
+2020-03-02 15:24:18.9981 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:24:19.0891 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:24:19.0891 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:24:19.1428 Info Found 47 configuration items
+2020-03-02 15:24:56.1886 Info Message Template Auto Format enabled
+2020-03-02 15:24:56.2049 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-02 15:24:56.2927 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-02 15:24:56.3051 Info Adding target FileTarget(Name=InfoFile)
+2020-03-02 15:24:56.3521 Info Found 47 configuration items
+2020-03-03 12:08:41.0553 Info Message Template Auto Format enabled
+2020-03-03 12:08:41.0789 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-03 12:08:41.1770 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-03 12:08:41.1888 Info Adding target FileTarget(Name=InfoFile)
+2020-03-03 12:08:41.2449 Info Found 47 configuration items
+2020-03-03 12:10:14.7286 Info Message Template Auto Format enabled
+2020-03-03 12:10:14.7453 Info Loading assembly: NLog.Web.AspNetCore
+2020-03-03 12:10:14.8516 Info Adding target FileTarget(Name=ErrorFile)
+2020-03-03 12:10:14.8636 Info Adding target FileTarget(Name=InfoFile)
+2020-03-03 12:10:14.9222 Info Found 47 configuration items

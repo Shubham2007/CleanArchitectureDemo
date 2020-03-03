@@ -1,0 +1,39 @@
+2020-03-02 12:24:35.2130||ERROR|API.Filters.ModelValidationFilter|Validation Error: The Title field is required. 
+2020-03-02 12:26:35.9634||ERROR|API.Controllers.DiaryController|User Id is not valid 
+2020-03-02 12:26:59.3963||ERROR|API.Controllers.DiaryController|User Id is not valid 
+2020-03-02 15:22:05.2372||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-03-02 15:23:36.8451||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 
+2020-03-02 15:24:21.1617||ERROR|API.Middlewares.ExceptionMiddleware|Something went wrong: System.InvalidOperationException: Action 'API.Controllers.DiaryController.CreateDiaryNote (API)' does not have an attribute route. Action methods on controllers annotated with ApiControllerAttribute must be attribute routed.
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.EnsureActionIsAttributeRouted(Boolean controllerHasSelectorModel, ActionModel actionModel)
+   at Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\shubham.chauhan\source\repos\DiaryManagement\DiaryManagement\API\Middlewares\ExceptionMiddleware.cs:line 28 

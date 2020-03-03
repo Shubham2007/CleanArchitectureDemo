@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    //[Route("api/[controller]")]
+    //[Route("api/{server}/[controller]")]
     [CustomRoute]
     [ApiController]
     public class DiaryController : ControllerBase
@@ -64,7 +64,7 @@ namespace API.Controllers
         [ProducesResponseType(typeof(IEnumerable<DiaryNoteDto>), 200)]
         [ProducesResponseType(typeof(string), 500)]
         [ProducesResponseType(typeof(string), 400)]
-        [HttpGet("GetUserDiaryNotes")]
+        [HttpGet("GetUserDiaryNotes/{userId}")]
         public async Task<IActionResult> GetUserDiaryNotes(int userId)
         {
             try

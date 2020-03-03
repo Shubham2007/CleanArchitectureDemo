@@ -12,7 +12,6 @@ namespace API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            AppSettings.Serverkey = configuration.GetSection("Serverkey")?.Value;
         }
 
         public IConfiguration Configuration { get; }
@@ -47,7 +46,13 @@ namespace API
             // Swagger Configuration
             app.ConfigureSwagger();
 
-            app.UseMvc();
+            //app.UseMvc();
+            app.UseMvc(o => o.MapRoute(
+                name: "DefaultApi",
+                template: "api/{service}/{controller}",
+                defaults: new { service = "esignature" }
+            ));
+
         }
     }
 }
