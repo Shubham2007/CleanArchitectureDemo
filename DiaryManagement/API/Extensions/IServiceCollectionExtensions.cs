@@ -96,8 +96,9 @@ namespace API.Extensions
         /// <param name="services"></param>
         public static void DependencyResolver(this IServiceCollection services)
         {
-            services.AddSingleton<IDiaryService, DiaryService>();
-            services.AddSingleton<IDiaryDataService, DiaryDataService>();
+            services.AddTransient<IDiaryService, DiaryService>();
+            services.AddTransient(serviceProvider => new Lazy<IDiaryService>(() => serviceProvider.GetRequiredService<IDiaryService>()));
+            services.AddTransient<IDiaryDataService, DiaryDataService>();
         }
 
         /// <summary>

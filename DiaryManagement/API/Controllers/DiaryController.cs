@@ -17,9 +17,9 @@ namespace API.Controllers
     public class DiaryController : ControllerBase
     {
         private readonly ILogger<DiaryController> _logger;
-        private readonly IDiaryService _diaryService;
+        private readonly Lazy<IDiaryService> _diaryService;
 
-        public DiaryController(IDiaryService diaryService, ILogger<DiaryController> logger)
+        public DiaryController(Lazy<IDiaryService> diaryService, ILogger<DiaryController> logger)
         {
             _diaryService = diaryService ?? throw new ArgumentNullException(nameof(diaryService));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
@@ -40,7 +40,7 @@ namespace API.Controllers
             {
                 _logger.LogInformation($"Executing {MethodBase.GetCurrentMethod().Name} Method Of Class: { this.GetType().Name}");
 
-                bool success = await _diaryService.CreateDiaryNote(createDiaryNoteDto);
+                bool success = await _diaryService.Value.CreateDiaryNote(createDiaryNoteDto);
 
                 if (!success)
                 {
@@ -71,7 +71,7 @@ namespace API.Controllers
             {
                 _logger.LogInformation($"Executing {MethodBase.GetCurrentMethod().Name} Method Of Class: { this.GetType().Name}");
 
-                IEnumerable<DiaryNoteDto> diaryNotes = await _diaryService.GetUserDiaryNotes(userId);
+                IEnumerable<DiaryNoteDto> diaryNotes = await _diaryService.Value.GetUserDiaryNotes(userId);
 
                 if (diaryNotes == null || !diaryNotes.Any())
                 {
